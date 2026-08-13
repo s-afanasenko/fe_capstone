@@ -21,3 +21,9 @@
   object-fit: cover;
   border-radius: 0.5rem;
 }
+
+@media (max-width: 880px) {
+  .hero-banner {
+    padding: 1rem 0 2rem;
+  }
+}

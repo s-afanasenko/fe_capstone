@@ -14,7 +14,6 @@ export default function BookingPage () {
 		});
 	}
 	const submitForm = (formData) => {
-		console.warn(formData);
 		const response = submitAPI(formData);
 
 		if (response) {
@@ -36,7 +35,7 @@ export default function BookingPage () {
 				<h1>Book Now</h1>
 
 				<div className="row">
-					<div className="col col-8">
+					<div className="col col-8 col-sm-12">
 						<BookingForm
 							availableTimes={availableTimes}
 							onDateChange={onDateChange}

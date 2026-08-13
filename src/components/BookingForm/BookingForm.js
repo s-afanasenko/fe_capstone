@@ -43,7 +43,7 @@ export default function BookingForm ({ availableTimes = [], onDateChange, onSubm
 					name="date"
 					required
 					value={values.date}
-					aria-invalid={String(touched.date && errors.date)}
+					aria-invalid={touched.date && errors.date ? 'true' : 'false'}
 					onChange={e => {
 						handleDefaultChange(e);
 						handleChange(e);
@@ -61,7 +61,7 @@ export default function BookingForm ({ availableTimes = [], onDateChange, onSubm
 					id="res-time"
 					name="time"
 					required
-					aria-invalid={String(touched.time && errors.time)}
+					aria-invalid={touched.time && errors.time ? 'true' : 'false'}
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={values.time}
@@ -86,7 +86,7 @@ export default function BookingForm ({ availableTimes = [], onDateChange, onSubm
 					required
 					id="guests"
 					name="guests"
-					aria-invalid={String(touched.guests && errors.guests)}
+					aria-invalid={touched.guests && errors.guests ? 'true' : 'false'}
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={values.guests}
@@ -102,7 +102,7 @@ export default function BookingForm ({ availableTimes = [], onDateChange, onSubm
 					id="occasion"
 					name="occasion"
 					required
-					aria-invalid={String(touched.occasion && errors.occasion)}
+					aria-invalid={touched.occasion && errors.occasion ? 'true' : 'false'}
 					onChange={handleChange}
 					onBlur={handleBlur}
 					value={values.occasion}

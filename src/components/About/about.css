@@ -15,7 +15,6 @@
 }
 .about-section__text {
   font: var(--text-lead);
-  margin-bottom: 2.5rem;
   text-align: justify;
 }
 .about-section__picture img {
@@ -23,4 +22,10 @@
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 0.5rem;
+}
+
+@media (max-width: 880px) {
+  .about-section {
+    padding: 2rem 0;
+  }
 }

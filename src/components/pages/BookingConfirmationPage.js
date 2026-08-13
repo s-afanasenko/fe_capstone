@@ -6,7 +6,7 @@ export default function BookingConfirmationPage () {
 			<div className="container">
                 <h1>Congratulations!</h1>
                 <p>Your table has been reserved!</p><br /><br />
-                <Link to="/" className="btn btn-primary btn-lg">Return to home page</Link>
+                <Link to="/" className="btn btn--primary btn--lg">Return to home page</Link>
             </div>
         </section>
     );

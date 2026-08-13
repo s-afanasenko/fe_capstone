@@ -1,18 +1,22 @@
+import { useNavigate } from "react-router";
 import ProductCard from "../ProductCard/ProductCard";
 import Button from "../Form/Button";
 import "./specials.css";
 
 export default function Specials ({ products }) {
+	const navigate = useNavigate();
 
 	const productItems = products.map(product => {
 		return (
-			<div className="col col-4" key={product.id}>
+			<div className="col col-4 col-sm-12" key={product.id}>
 				<ProductCard product={product} />
 			</div>
 		)
 	});
 
-	const ctaOnClick = () => {}
+	const ctaOnClick = () => {
+		navigate('/menu');
+	}
 
 	return (
 		<section className="specials">

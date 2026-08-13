@@ -18,3 +18,16 @@
 .specials__header .btn {
   min-width: 14.37em;
 }
+
+@media (max-width: 880px) {
+  .specials {
+    padding: 2rem 0;
+  }
+  .specials__title {
+    font: var(--text-sub-title);
+  }
+  .specials__header {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

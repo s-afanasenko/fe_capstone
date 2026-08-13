@@ -4,7 +4,7 @@ import Main from "../Main/Main";
 export default function UnderConstruction () {
 	return (
 		<Main>
-			<section className="under-construction">
+			<section className="section-default">
 				<div className="container">
 					<div className="row">
 						<div className="col col-12">

@@ -10,3 +10,15 @@
   font: var(--text-display-title);
   color: var(--color-primary-1);
 }
+
+@media (max-width: 880px) {
+  .testimonials {
+    padding: 2rem 0;
+  }
+  .testimonials__title {
+    font: var(--text-sub-title);
+  }
+  .testimonials__header {
+    margin-bottom: 1rem;
+  }
+}

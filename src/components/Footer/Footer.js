@@ -17,12 +17,12 @@ export default function Footer () {
           </div>
           <div className="col col-10">
             <div className="row">
-              <div className="col col-4">
+              <div className="col col-4 col-sm-12">
                 <FooterFragment title="Doormat Navigation">
                   <Navigation className="footer-navigation" />
                 </FooterFragment>
               </div>
-              <div className="col col-4">
+              <div className="col col-4 col-sm-12">
                 <FooterFragment title="Contact">
                   <address>
                     <p>9361 S Lawrence Ave</p>
@@ -32,7 +32,7 @@ export default function Footer () {
                   </address>
                 </FooterFragment>
               </div>
-              <div className="col col-4">
+              <div className="col col-4 col-sm-12">
                 <FooterFragment title="Social Media Links">
                   <ul className="main-footer__socials">
                     <li>

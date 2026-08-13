@@ -2,9 +2,8 @@ import Testimonial from "../Testimonial/Testimonial";
 import "./testimonials.css";
 
 export default function Testimonials ({ testimonials }) {
-	console.log(testimonials);
   const items = testimonials.map(testimonial => (
-		<div className="col col-3" key={testimonial.id}>
+		<div className="col col-3 col-sm-12" key={testimonial.id}>
 			<Testimonial testimonial={testimonial} />
 		</div>
 	));

@@ -21,3 +21,9 @@
 .main-footer__socials .icon {
   width: 1.5rem;
 }
+
+@media (max-width: 880px) {
+  .main-footer {
+    padding: 2rem 0;
+  }
+}
