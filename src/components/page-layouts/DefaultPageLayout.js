@@ -3,7 +3,7 @@ import Header from '../Header/Header';
 import Main from '../Main/Main';
 import Footer from '../Footer/Footer';
 
-function DefaultPageLayout () {
+function DefaultPageLayout() {
 	return (
 		<>
 			<Header />

@@ -5,8 +5,9 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router";
 import DefaultPageLayout from './components/page-layouts/DefaultPageLayout';
 import HomePage from './components/pages/HomePage';
-import TableReservation from './components/pages/TableReservation';
+import BookingPage from './components/pages/BookingPage';
 import UnderConstruction from './components/pages/UnderConstruction';
+import BookingConfirmationPage from './components/pages/BookingConfirmationPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,9 +18,10 @@ root.render(
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<UnderConstruction />} />
           <Route path="/menu" element={<UnderConstruction />} />
-          <Route path="/reserve-a-table" element={<TableReservation />} />
+          <Route path="/reserve-a-table" element={<BookingPage />} />
           <Route path="/order-online" element={<UnderConstruction />} />
           <Route path="/login" element={<UnderConstruction />} />
+          <Route path="/booking-confirmation" element={<BookingConfirmationPage />} />
         </Route>
       </Routes>
     </BrowserRouter>

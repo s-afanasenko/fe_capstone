@@ -175,3 +175,67 @@ body {
 .col-12 { flex-basis: 100%; }
 
 /** EO Grid Layout */
+
+/** Form Components */
+.field {
+  margin-bottom: 1.25rem;
+}
+.label {
+  display: block;
+  margin-bottom: .5rem;
+  font: var(--text-button);
+  color: var(--color-primary-1);
+}
+.field:last-child {
+  margin-bottom: 0;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="time"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  font: var(--text-button);
+  width: 100%;
+  padding: .875rem 1.25rem;
+  border: 2px solid var(--color-primary-1);
+  border-radius: 8px;
+}
+input[type="text"]::placeholder,
+input[type="password"]::placeholder,
+input[type="date"]::placeholder,
+input[type="time"]::placeholder,
+input[type="email"]::placeholder,
+input[type="number"]::placeholder,
+select::placeholder,
+textarea::placeholder {
+  font: var(--text-button);
+  color: var(--color-primary-1);
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-primary-2);
+}
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="date"]:disabled,
+input[type="time"]:disabled,
+input[type="email"]:disabled,
+input[type="number"]:disabled,
+select:disabled,
+textarea:disabled {
+  cursor: not-allowed;
+  background: var(--color-secondary-3);
+  border-color: var(--color-secondary-3);
+  color: #C4C4C4;
+}
+/** EO Form Components */
+
