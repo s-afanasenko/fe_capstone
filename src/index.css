@@ -25,6 +25,8 @@
   --color-secondary-3: #edefee;
   --color-secondary-4: #333333;
 
+  --color-error: var(--color-secondary-1);
+
   --grid-gutter: 1.25rem;
 }
 
@@ -236,6 +238,12 @@ textarea:disabled {
   background: var(--color-secondary-3);
   border-color: var(--color-secondary-3);
   color: #C4C4C4;
+}
+.fied-error {
+  display: block;
+  font: var(--text-small);
+  color: var(--color-error);
+  margin-top: 0.25rem;
 }
 /** EO Form Components */
 
