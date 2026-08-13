@@ -1,0 +1,23 @@
+.hero-banner {
+  padding: 1rem 0;
+  background: var(--color-primary-1);
+  color: var(--color-secondary-3);
+}
+.hero-banner__title {
+  font: var(--text-display-title);
+  color: var(--color-primary-2);
+}
+.hero-banner__subtitle {
+  font: var(--text-sub-title);
+  margin-bottom: 2rem;
+}
+.hero-banner__text {
+  font: var(--text-lead);
+  margin-bottom: 2.5rem;
+}
+.hero-banner__picture img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,33 @@
+.main-header {
+  background: var(--color-white);
+  padding: 1.25rem 0;
+  flex: 0 0 auto;
+}
+.main-header > .container {
+  display: flex;
+  align-items: center;
+  column-gap: 2.5rem;
+}
+.main-navigation > ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 1.25rem;
+}
+.main-navigation a {
+  font: var(--text-navbar-link);
+  text-decoration: none;
+  transition: color ease 0.2s;
+}
+.main-navigation a,
+.main-navigation a:link,
+.main-navigation a:visited {
+  color: var(--color-black);
+}
+.main-navigation a:hover,
+.main-navigation a:focus,
+.main-navigation a.active {
+  color: var(--color-primary-1);
+  text-decoration: underline;
+}

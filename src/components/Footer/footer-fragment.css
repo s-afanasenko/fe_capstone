@@ -1,0 +1,12 @@
+.footer-fragment {
+  font: var(--text-navbar-link);
+  color: var(--color-secondary-4);
+}
+.footer-fragment a {
+  color: inherit;
+  text-decoration: none;
+}
+.footer-fragment__title {
+  font: var(--text-section-title);
+  margin-bottom: .875rem;
+}

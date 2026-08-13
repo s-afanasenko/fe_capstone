@@ -1,0 +1,12 @@
+.rating {
+  display: flex;
+  gap: 0.5rem;
+}
+.rating__star .icon {
+  fill: var(--color-secondary-3);
+  stroke: var(--color-secondary-3);
+}
+.rating__star--active .icon {
+  fill: var(--color-primary-2);
+  stroke: var(--color-primary-2);
+}

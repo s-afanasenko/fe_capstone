@@ -1,0 +1,26 @@
+.about-section {
+  padding: 6.25rem 0;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+.about-section__title {
+  font: var(--text-display-title);
+  line-height: 0.7em;
+  color: var(--color-primary-2);
+}
+.about-section__subtitle {
+  font: var(--text-sub-title);
+  color: var(--color-secondary-4);
+  margin-bottom: 1.875rem;
+}
+.about-section__text {
+  font: var(--text-lead);
+  margin-bottom: 2.5rem;
+  text-align: justify;
+}
+.about-section__picture img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

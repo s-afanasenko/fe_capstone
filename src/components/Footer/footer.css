@@ -1,0 +1,23 @@
+.main-footer {
+  flex: 0 0 auto;
+  padding: 6rem 0;
+  background: var(--color-secondary-3);
+}
+.main-footer__logo img {
+  width: 74px;
+}
+.footer-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.main-footer__socials {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style-type: none
+}
+.main-footer__socials .icon {
+  width: 1.5rem;
+}
